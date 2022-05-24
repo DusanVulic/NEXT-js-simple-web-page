@@ -1,7 +1,7 @@
 import React from "react";
 
 const Ninjas = () => {
-  return <div>Ninjas</div>;
+  return <div>Foxes</div>;
 };
 
 export default Ninjas;
