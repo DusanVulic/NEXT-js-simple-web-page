@@ -9,18 +9,21 @@ export default function Home() {
   return (
     <div>
       <h2 className={styles.title}>Home page</h2>
-      <p className={styles.text}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum
-        suscipit aperiam ipsum quod rerum!
-      </p>
-      <p className={styles.text}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum
-        suscipit aperiam ipsum quod rerum!
-      </p>
-      <p className={styles.text}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum
-        suscipit aperiam ipsum quod rerum!
-      </p>
+      <div className="container">
+        <p className={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum
+          suscipit aperiam ipsum quod rerum!
+        </p>
+        <p className={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum
+          suscipit aperiam ipsum quod rerum!
+        </p>
+        <p className={styles.text}>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus harum
+          suscipit aperiam ipsum quod rerum!
+        </p>
+      </div>
+
       <Link href="/foxes">
         <a className={styles.btn}>See foxes listing</a>
       </Link>
