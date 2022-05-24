@@ -3,10 +3,16 @@ import React from "react";
 //import Link from next
 import Link from "next/link";
 
+//import
+
+import Image from "next/dist/client/image";
+
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">FOX Logo</div>
+      <div className="logo">
+        <Image src="/logo.png" alt="logo" width={60} height={60} />
+      </div>
       <Link href="/">
         <a>Home</a>
       </Link>
