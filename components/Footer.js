@@ -1,7 +1,10 @@
 import React from "react";
 
 const Footer = () => {
-  return <footer>copyright paperFox</footer>;
+  // date-year
+  const year = new Date().getFullYear();
+  //
+  return <footer> copyright paperFox {year} </footer>;
 };
 
 export default Footer;

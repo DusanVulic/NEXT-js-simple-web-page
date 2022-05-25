@@ -26,7 +26,7 @@ const Foxes = ({ foxes }) => {
           const { id, name } = fox;
           return (
             <div key={id}>
-              <a>
+              <a className={styles.single}>
                 <h4>{fox.name}</h4>
               </a>
             </div>
